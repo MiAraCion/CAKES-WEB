@@ -1,0 +1,574 @@
+:root{
+
+    --color-boton- :  rgb(255, 138, 0, 1);
+
+}
+
+button:hover{
+    transform: translateY(-10px);
+    transition-Duration : 0.3s;
+    cursor: pointer;
+}
+a>p:hover{
+    color: white;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor{
+
+    margin: 0 auto;
+    width: 1200px;
+    border: solid transparent;
+
+
+}
+
+.h2-tipo1{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.h2-tipo2{
+
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+/*Barra de Navegacion*/
+
+header{
+
+    width: 100%;
+    height: 72px;
+    background-color: #C3FFF4;
+}
+
+.cabecera{
+
+    height: 72px;
+
+}
+
+.navegador{
+    padding: 0;
+    list-style: none;
+    display: flex;   
+    justify-content: center;
+    
+}
+
+
+.navegador>li{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    margin: 10px 50px 10px 50px;
+    
+}
+.navegador>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.item{
+
+    font-size: 15px;
+    font-family: cursive;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+
+
+.titulo{
+
+    font-size: 20px;
+    font-family: cursive;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+
+/*Barra de Navegacion*/
+
+/*SLIDER-------------------*/
+.s-boton{
+    width: 50px;
+    height: 450px;
+}
+.s-boton>button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+.s-boton>button>img{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+.slider{
+
+    width: 100%;
+    background: linear-gradient(180deg, #C3FFF4 0%, #E0FFF9 100%);
+    
+}
+
+.contener-slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+        /*Slider*/
+
+        .superP{
+            overflow: hidden;
+            width: 1100px;
+            height: 450px;
+        }
+
+        .padre{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+
+        .hijo{
+            min-width: 1100px;
+            min-height: 450px;
+        }
+        /*Slider*/
+
+.slider-cont{
+    
+    display: flex;
+    height: 100%;
+
+}
+.slider-cont>div{
+    
+    width: 600px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.s1-itemA{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.s1-itemA>div>span{
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+   
+}
+
+.s1-itemA>div>p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.i-btn{
+   
+    display: flex;
+    justify-content: center;
+
+}
+.i-btn>button{
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+    background-color:var(--color-boton-);
+    color : white;
+    font-size: 17px;
+    border: none;
+}
+
+.s1-itemB{
+    width: 400px;
+    height: 400px;
+}
+.s1-itemB>img{
+    width: 100%;
+    height: 100%;
+}
+
+.item-s{
+    width: 100%;
+    height: 450px;
+}
+
+.item-s>img{
+    width: 100%;
+    height: 450px;
+}
+/*SLIDER-------------------*/
+
+
+
+
+/*-----------------Especial-del-mes------------------*/
+.especiales-del-mes{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: rgba(224, 255, 249, 1);
+}
+
+.cont-item{
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.em-item{
+    width: 300px;
+    height: 600px;
+    margin: 20px;
+}
+.em-item>div{
+    margin-bottom: 15px;
+}
+.em-img{
+    width: 100%;
+    height: 300px;
+}
+.em-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.em-pn{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.em-pn>span{
+    margin: 5px;
+    font-weight: bold;/*letra negrita*/
+}
+
+.em-descr{
+    width: 100%;
+    text-align: justify;
+}
+.em-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.em-btn>button{
+    width: 200px;
+    background-color: var(--color-boton-);
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+
+
+/*-----------------Especial-del-mes------------------*/
+
+
+/*-----------------Mas-Buscado------------------*/
+
+.mas-buscado{
+    
+    background: linear-gradient(180deg, #E0FFF9 0.01%, #E0FFF9 51.04%, #FFFFFF 100%);
+    width: 100%;
+    
+
+}
+
+
+.mas-buscado h2{
+    width: 100%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.mb-contenedor{
+    margin: 0 50px 0 50px;
+}
+.mb-contenedor>div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mb-item{
+    width: 520px;
+    height: 250px;
+    margin: 20 0 20 0;
+    display: flex;
+
+}
+
+.mb-item>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+.mb-item>div{
+    width: 260px;
+}
+
+.mb-item-info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10 0 10;
+}
+
+.mb-item-nombre{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.mb-item-precio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mb-item-descr{
+    
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 20px ;
+
+}
+.mb-item-btn{
+    width: 170px;
+    height: 40px;
+    border-radius:50px;
+    background-color: var(--color-boton-);
+    margin: 0 auto;
+    color: white;
+    border: none;
+}
+
+
+/*-----------------Mas-Buscado------------------*/
+
+/*-----------------Testimonio-Cliente------------------*/
+
+
+.tc-cont{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.tc-cont>div{
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    
+}
+
+.tc-nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tc-nom>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px
+}
+.tc-nom>p{
+    margin: 20px;
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.tc-descr>span{
+    margin: 15px;
+    display: block;
+    text-align: left;
+
+}
+
+
+/*-----------------Testimonio-Cliente------------------*/
+
+
+
+/*-----------------Contacto------------------*/
+
+.c-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.c-cont>div{
+    width: 600px;
+    height: 600px;
+}
+.c-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-info>div{
+    width: 400px;
+    height: 400px;
+}
+.c-info>div>p{
+
+    color: rgba(249, 185, 185, 1);
+    width: 50px;
+    height: 20px;
+    margin: 20px 0 0 30px;
+
+}
+
+.c-contact{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10 30 10;
+}
+.c-contact>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.c-form{
+    display: flex;
+    align-items: center;
+}
+.c-form>div{
+    width: 450px;
+    height: 500px;
+    background-color:rgba(249, 185, 185, 1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-form form{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.c-form form>p{
+
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+}
+
+.c-form form>label{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.c-form form>input{
+    font-size: 13px;
+    height: 30px;
+    width: 300px;
+    margin-left:20px;
+    border: none;
+    border-radius: 5px;
+}
+.c-form form>textarea{
+    width: 300px;
+    height: 70px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.c-form form>button{
+    
+    width: 170px;
+    border-radius: 50px;
+    color: white;
+    margin-left: 20px;
+    background-color: #FA7171;
+    border: none;
+}
+
+
+
+
+/*-----------------Contacto------------------*/
+
+/*-----------------footer------------------*/
+
+
+.ft-info{
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.ft-info>p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ft-info img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.f-copy{
+    width: 1000px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+/*-----------------footer------------------*/
+
+     
